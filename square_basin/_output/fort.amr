@@ -1,0 +1,901 @@
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+  max threads set to            1
+
+ amrclaw parameters:
+
+ error tol            -0.10000E+01
+ spatial error tol     0.50000E-01
+ order of integrator             2
+ error checking interval         3
+ buffer zone size                2
+ nghost                          2
+ volume ratio cutoff   0.70000E+00
+ max. refinement level           5
+ user sub. calling times 999999999
+ cfl # (if var. delt)  0.75000E+00
+
+ xupper(upper corner) -0.85000E+02
+ yupper(upper corner)  0.25000E+02
+ xlower(lower corner) -0.90000E+02
+ ylower(lower corner)  0.20000E+02
+ nx = no. cells in x dir.       64
+ ny = no. cells in y dir.       64
+ refinement ratios       
+ refinement ratios:           2    2    2    2    0
+ refinement ratios:           2    2    2    2    0
+ no. auxiliary vars.             9
+       var     1 of type center    
+       var     2 of type capacity  
+       var     3 of type center    
+       var     4 of type center    
+       var     5 of type center    
+       var     6 of type center    
+       var     7 of type center    
+       var     8 of type center    
+       var     9 of type center    
+ capacity fn. is aux. var        2
+ the subtree is
+ +---------------------------------------------------------------------------+
+ ! grid no:     4                                                            !
+ ! nestlevel=  1, time mult=    0.184032000000000E+08, level ptr =     2     !
+ ! storage locs =      73873      58321  bndry locs =          0          0  !
+ ! corners of rectangle:                                                     !
+ !           ( -87.5000000,   25.0000000)( -85.0000000,   25.0000000)        !
+ !           ( -87.5000000,   22.5000000)( -85.0000000,   22.5000000)        !
+ ! integer index space :                                                     !
+ !                   (      32,       63)(      63,       63)                !
+ !                   (      32,       32)(      63,       32)                !
+ ! hrow=      0.07812500000, hcol=      0.07812500000, ktime=     0.016000000!
+ +---------------------------------------------------------------------------+
+ +---------------------------------------------------------------------------+
+ ! grid no:     2                                                            !
+ ! nestlevel=  1, time mult=    0.184032000000000E+08, level ptr =     3     !
+ ! storage locs =      54433      38881  bndry locs =          0          0  !
+ ! corners of rectangle:                                                     !
+ !           ( -87.5000000,   22.5000000)( -85.0000000,   22.5000000)        !
+ !           ( -87.5000000,   20.0000000)( -85.0000000,   20.0000000)        !
+ ! integer index space :                                                     !
+ !                   (      32,       31)(      63,       31)                !
+ !                   (      32,        0)(      63,        0)                !
+ ! hrow=      0.07812500000, hcol=      0.07812500000, ktime=     0.016000000!
+ +---------------------------------------------------------------------------+
+ +---------------------------------------------------------------------------+
+ ! grid no:     3                                                            !
+ ! nestlevel=  1, time mult=    0.184032000000000E+08, level ptr =     1     !
+ ! storage locs =      34993      19441  bndry locs =          0          0  !
+ ! corners of rectangle:                                                     !
+ !           ( -90.0000000,   25.0000000)( -87.5000000,   25.0000000)        !
+ !           ( -90.0000000,   22.5000000)( -87.5000000,   22.5000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,       63)(      31,       63)                !
+ !                   (       0,       32)(      31,       32)                !
+ ! hrow=      0.07812500000, hcol=      0.07812500000, ktime=     0.016000000!
+ +---------------------------------------------------------------------------+
+ +---------------------------------------------------------------------------+
+ ! grid no:     1                                                            !
+ ! nestlevel=  1, time mult=    0.184032000000000E+08, level ptr =     0     !
+ ! storage locs =      15553          1  bndry locs =          0          0  !
+ ! corners of rectangle:                                                     !
+ !           ( -90.0000000,   22.5000000)( -87.5000000,   22.5000000)        !
+ !           ( -90.0000000,   20.0000000)( -87.5000000,   20.0000000)        !
+ ! integer index space :                                                     !
+ !                   (       0,       31)(      31,       31)                !
+ !                   (       0,        0)(      31,        0)                !
+ ! hrow=      0.07812500000, hcol=      0.07812500000, ktime=     0.016000000!
+ +---------------------------------------------------------------------------+
+
+    4 grids at level     1 go from         0        0 to       63       63
+
+   original total mass ...
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18403E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18404E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18404E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18405E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18406E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18407E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18408E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18409E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18409E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18409E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18410E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133405E+15  diff =  0.0000E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18411E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18412E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18413E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18414E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18415E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18416E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18417E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18418E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18419E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+time t =  0.18420E+08,  total mass =  0.695846279133406E+15  diff =  0.1250E+00
+  total flagged points counted on level            1  is            0
+ this may include double counting buffer cells on  multiple grids

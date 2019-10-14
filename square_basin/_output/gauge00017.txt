@@ -1,0 +1,2 @@
+# gauge_id=    17 location=( -0.8545000000E+02  0.2409090909E+02 ) num_var=  4
+# level, time, q[  1  2  3], eta, aux[]

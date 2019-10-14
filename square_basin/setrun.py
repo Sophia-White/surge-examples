@@ -98,7 +98,8 @@ def setrun(claw_pkg='geoclaw'):
     # Initial time:
     # -------------
 
-    clawdata.t0 = days2seconds(tracy_landfall.days - RAMP_UP_TIME) + tracy_landfall.seconds
+    #clawdata.t0 = days2seconds(tracy_landfall.days - RAMP_UP_TIME) + tracy_landfall.seconds
+    clawdata.t0 = days2seconds(0.0) 
 
     # Restart from checkpoint file of a previous run?
     # Note: If restarting, you must also change the Makefile to set:
@@ -119,12 +120,13 @@ def setrun(claw_pkg='geoclaw'):
     # Note that the time integration stops after the final output time.
     # The solution at initial time t0 is always written in addition.
 
-    clawdata.output_style = 2
+    clawdata.output_style = 1
 
     if clawdata.output_style==1:
         # Output nout frames at equally spaced times up to tfinal:
-        # clawdata.tfinal = days2seconds(date2days('2008091400'))
-        clawdata.tfinal = days2seconds(tracy_landfall.days + 2) + tracy_landfall.seconds
+        /clawdata.tfinal = days2seconds(date2days('2008091400'))
+        #clawdata.tfinal = days2seconds(tracy_landfall.days + 2) + tracy_landfall.seconds
+        clawdata.tfinal = days2seconds(5.0) 
         recurrence = 24
         clawdata.num_output_times = int((clawdata.tfinal - clawdata.t0) 
                                             * recurrence / (60**2 * 24))
@@ -367,6 +369,8 @@ def setgeo(rundata):
     geo_data.gravity = 9.81
     geo_data.coordinate_system = 2
     geo_data.earth_radius = 6367.5e3
+    geo_data.rho_air = 1.15
+    geo_data.ambient_pressure = 101.5e3 # Nominal atmos pressure
 
     # == Forcing Options
     geo_data.coriolis_forcing = True
@@ -420,8 +424,6 @@ def setgeo(rundata):
     data = rundata.surge_data
 
    # Physics parameters
-    data.rho_air = 1.15             # Density of air (rho is not implemented above)
-    data.ambient_pressure = 101.5e3 # Nominal atmos pressure
 
     # Source term controls
     data.wind_forcing = True
@@ -439,14 +441,14 @@ def setgeo(rundata):
     data.display_landfall_time = True
 
     # Storm parameters, not written out but used to write the tracy.data file
-    data.ramp_up_t = days2seconds(RAMP_UP_TIME)
+    # data.ramp_up_t = days2seconds(RAMP_UP_TIME)
     # Convert from 5.0 m/s to degrees/s at lat 25N
-    data.velocity = [4.9603e-05, 0.0]
+    # data.velocity = [4.9603e-05, 0.0]
     # Assume domain (-90, 20) to (-85, 25) (W and N respectively)
-    data.R_eye_init = [-89, 22.5]
-    data.A = 23.0
-    data.B = 1.5
-    data.Pc = 950.0 * 1e2 # Have to convert this to Pa instead of millibars
+    # data.R_eye_init = [-89, 22.5]
+    # data.A = 23.0
+    # data.B = 1.5
+    # data.Pc = 950.0 * 1e2 # Have to convert this to Pa instead of millibars
 
     # surge.data.write_idealized_holland_storm_data(data.storm_file, data)
 

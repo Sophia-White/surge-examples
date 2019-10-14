@@ -446,6 +446,9 @@ def setgeo(rundata):
     geo_data.gravity = 9.81
     geo_data.coordinate_system = 2
     geo_data.earth_radius = 6367.5e3
+    geo_data.rho_air = 1.15
+    geo_data.ambient_pressure = 101.5e3 # Nominal atmos pressure
+
 
     # == Forcing Options
     geo_data.coriolis_forcing = True
@@ -519,10 +522,6 @@ def setgeo(rundata):
 def set_storm(rundata):
 
     data = rundata.surge_data
-
-    # Physics parameters
-    data.rho_air = 1.15
-    data.ambient_pressure = 101.3e3 # Nominal atmos pressure
 
     # Source term controls - These are currently not respected
     data.wind_forcing = True
